@@ -1,0 +1,65 @@
+﻿@page "/edit/{id:int}"
+@using Server.Service
+@using global::AppData
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+<h3>Edit</h3>
+
+<EditForm Model="products" OnValidSubmit="SubmitForm">
+	<DataAnnotationsValidator />
+	<ValidationSummary />
+	<div>
+		<label>ProductName:</label>
+		<InputText @bind-Value="products.ProductName"></InputText>
+	</div>
+	<div>
+		<label>ImageView:</label>
+		@if (!string.IsNullOrEmpty(products.ImagePath))
+		{
+			<img src="@products.ImagePath" style="max-width: 200px; max-height:200px;" />
+		}
+	</div>
+	<div>
+		<label>ImagePath:</label>
+		<InputFile OnChange="FileSelected"></InputFile>
+	</div>
+	<div>
+		<label>Price:</label>
+		<InputNumber @bind-Value="products.Price"></InputNumber>
+	</div>
+	<div>
+		<label>StockQuantity:</label>
+		<InputNumber @bind-Value="products.StockQuantity"></InputNumber>
+	</div>
+	<div>
+		<label>CreatedDate:</label>
+		<InputDate @bind-Value="products.CreatedDate"></InputDate>
+	</div>
+	<button type="submit">Edit</button>
+</EditForm>
+
+@code {
+	[Parameter]
+	public int Id { get; set; }
+	private Product products = new Product();
+	private IBrowserFile img;
+	private string message;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await ProductService.GetById(Id);
+	}
+	private async Task SubmitForm()
+	{
+		await ProductService.Update(products, img);
+		NavigationManager.NavigateTo("/list");
+	}
+
+	private void FileSelected(InputFileChangeEventArgs e)
+	{
+		if (e.FileCount > 0)
+		{
+			img = e.GetMultipleFiles(1)[0];
+		}
+	}
+}

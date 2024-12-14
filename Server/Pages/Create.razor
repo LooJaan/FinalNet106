@@ -1,0 +1,96 @@
+﻿@page "/create"
+@using Server.Service
+@using global::AppData
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+<h3>Create</h3>
+
+<EditForm Model="products" OnValidSubmit="SubmitForm">
+	<DataAnnotationsValidator />
+	<ValidationSummary />
+	<div>
+		<label>ProductName:</label>
+		<InputText @bind-Value="products.ProductName"></InputText>
+	</div>
+	<div>
+		<label>ImagePath:</label>
+		<InputFile OnChange="FileSelected"></InputFile>
+	</div>
+	<div>
+		<label>Price:</label>
+		<InputNumber @bind-Value="products.Price"></InputNumber>
+	</div>
+	<div>
+		<label>StockQuantity:</label>
+		<InputNumber @bind-Value="products.StockQuantity"></InputNumber>
+	</div>
+	<div>
+		<label>CreatedDate:</label>
+		<InputDate @bind-Value="products.CreatedDate"></InputDate>
+	</div>
+	<button type="submit">Create</button>
+</EditForm>
+
+@if (message != null)
+{
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+	<p class="text-danger">@message</p>
+}
+
+@code {
+	private Product products = new Product();
+	private IBrowserFile img;
+	private string message;
+
+	private bool Validate(string fileName)
+	{
+		var typeFile = new[] { ".jpg", ".jpeg", ".tiff", ".png" };
+		var fileExtension = Path.GetExtension(fileName).ToLower();
+		return typeFile.Contains(fileExtension);
+	}
+
+	private async Task SubmitForm()
+	{
+		if (img != null)
+		{
+			await ProductService.Create(products, img);
+			message = "TẢI LÊN THÀNH CÔNG";
+			products = new Product();
+			NavigationManager.NavigateTo("/list");
+		}
+		else
+		{
+			message = "BẠN CHƯA CHỌN ẢNH";
+		}
+	}
+
+	private void FileSelected(InputFileChangeEventArgs e)
+	{
+		if (e.FileCount > 0)
+		{
+			var selectedFile = e.GetMultipleFiles(1)[0];
+			if (Validate(selectedFile.Name))
+			{
+				img = selectedFile;
+				message = null;
+			}
+			else
+			{
+				message = "SAI ĐỊNH DẠNG";
+				img = null;
+			}
+		}
+		else
+		{
+			message = "BẠN CHƯA CHỌN ẢNH";
+		}
+	}
+}

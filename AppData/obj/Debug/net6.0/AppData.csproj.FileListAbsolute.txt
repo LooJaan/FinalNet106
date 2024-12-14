@@ -1,0 +1,11 @@
+E:\NguyenVanLuan_PH45454\AppData\bin\Debug\net6.0\AppData.deps.json
+E:\NguyenVanLuan_PH45454\AppData\bin\Debug\net6.0\AppData.dll
+E:\NguyenVanLuan_PH45454\AppData\bin\Debug\net6.0\AppData.pdb
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.GeneratedMSBuildEditorConfig.editorconfig
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.AssemblyInfoInputs.cache
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.AssemblyInfo.cs
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.csproj.CoreCompileInputs.cache
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.dll
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\refint\AppData.dll
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\AppData.pdb
+E:\NguyenVanLuan_PH45454\AppData\obj\Debug\net6.0\ref\AppData.dll

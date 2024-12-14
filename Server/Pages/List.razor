@@ -1,0 +1,70 @@
+﻿@page "/list"
+@using Server.Service
+@using global::AppData
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+<h3>List</h3>
+
+<button class="btn btn-primary" @onclick="Create">Create New</button>
+@if (products == null)
+{
+	<p>Loadinggg...</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope=" col">ProductID</th>
+				<th scope=" col">ProductName</th>
+				<th scope=" col">ImagePath</th>
+				<th scope=" col">Price</th>
+				<th scope=" col">StockQuantity</th>
+				<th scope=" col">CreatedDate</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var pr in products)
+			{
+				<tr>
+					<th scope="row">@pr.ProductID</th>
+					<th scope="row">@pr.ProductName</th>
+					<th scope="row"><img src="@pr.ImagePath" width="100"/></th>
+					<th scope="row">@pr.Price</th>
+					<th scope="row">@pr.StockQuantity</th>
+					<th scope="row">@pr.CreatedDate</th>
+					<th>
+						<button class="btn btn-warning" @onclick="() => ToEdit(pr.ProductID)">Edit</button>
+						<button class="btn btn-success" @onclick="() => ToDetail(pr.ProductID)">Detail</button>
+						<button class="btn btn-danger" @onclick="() => ClickDelete(pr.ProductID)">Delete</button> 
+					</th>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+
+@code {
+	private IEnumerable<Product> products;
+	protected override async Task OnInitializedAsync()
+	{
+		products = await ProductService.GetAll();
+	}
+	private void Create()
+	{
+		NavigationManager.NavigateTo("/create");
+	}
+	private void ToEdit(int id)
+	{
+		NavigationManager.NavigateTo($"/edit/{id}");
+	}
+	private async Task ClickDelete(int id)
+	{
+		await ProductService.Delete(id);
+		products = await ProductService.GetAll();
+	}
+	private void ToDetail(int id)
+	{
+		NavigationManager.NavigateTo($"/detail/{id}");
+	}
+}

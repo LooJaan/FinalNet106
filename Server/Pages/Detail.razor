@@ -1,0 +1,54 @@
+﻿@page "/detail/{id:int}"
+@using Server.Service
+@using global::AppData
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+<h3>Detail</h3>
+
+
+<div>
+	<label>ProductName:</label>
+	<span>@products.ProductName</span>
+</div>
+<div>
+	<label>ImageView:</label>
+	@if (!string.IsNullOrEmpty(products.ImagePath))
+	{
+		<img src="@products.ImagePath" style="max-width: 200px; max-height:200px;" />
+	}
+	else
+	{
+		<span>Không có ảnh</span>
+	}
+</div>
+<div>
+	<label>Price:</label>
+	<span>@products.Price</span>
+</div>
+<div>
+	<label>StockQuantity:</label>
+	<span>@products.StockQuantity</span>
+</div>
+<div>
+	<label>CreatedDate:</label>
+	<span>@products.CreatedDate</span>
+</div>
+<button @onclick="Back">Back</button>
+
+
+@code {
+	[Parameter]
+	public int Id { get; set; }
+	private Product products = new Product();
+	private IBrowserFile img;
+	private string message;
+
+	protected override async Task OnInitializedAsync()
+	{
+		products = await ProductService.GetById(Id);
+	}
+	private async Task Back()
+	{
+		NavigationManager.NavigateTo("/list");
+	}
+}

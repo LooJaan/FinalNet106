@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NguyenVanLuan_PH45454\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|e:\\nguyenvanluan_ph45454\\server\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|solutionrelative:server\\pages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|e:\\nguyenvanluan_ph45454\\server\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|solutionrelative:server\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|e:\\nguyenvanluan_ph45454\\server\\pages\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|solutionrelative:server\\pages\\list.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0751E026-A0C6-43DA-B893-E1D9C3BE8EF1}|AppData\\AppData.csproj|e:\\nguyenvanluan_ph45454\\appdata\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0751E026-A0C6-43DA-B893-E1D9C3BE8EF1}|AppData\\AppData.csproj|solutionrelative:appdata\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|e:\\nguyenvanluan_ph45454\\appapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|e:\\nguyenvanluan_ph45454\\appapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|e:\\nguyenvanluan_ph45454\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|e:\\nguyenvanluan_ph45454\\appapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|e:\\nguyenvanluan_ph45454\\server\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4424CD-BD94-4C7F-AFB0-176BD8A3CD1E}|Server\\Server.csproj|solutionrelative:server\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|e:\\nguyenvanluan_ph45454\\appapi\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|e:\\nguyenvanluan_ph45454\\appapi\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506956FA-0977-4CC1-AEED-452F3A2D0D15}|AppAPI\\AppAPI.csproj|solutionrelative:appapi\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.razor",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\Server\\Pages\\Create.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\Create.razor",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\Server\\Pages\\Create.razor",
+              "RelativeToolTip": "Server\\Pages\\Create.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T08:17:16.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.razor",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\Server\\Pages\\List.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\List.razor",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\Server\\Pages\\List.razor",
+              "RelativeToolTip": "Server\\Pages\\List.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T08:06:05.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AppAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AppAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-14T08:04:45.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:38.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\Server\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Server\\Service\\ProductService.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\Server\\Service\\ProductService.cs",
+              "RelativeToolTip": "Server\\Service\\ProductService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:16.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\Server\\Service\\IProductService.cs",
+              "RelativeDocumentMoniker": "Server\\Service\\IProductService.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\Server\\Service\\IProductService.cs",
+              "RelativeToolTip": "Server\\Service\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:15.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Repositories\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Repositories\\ProductRepo.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Repositories\\ProductRepo.cs",
+              "RelativeToolTip": "AppAPI\\Repositories\\ProductRepo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:12.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Repositories\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Repositories\\IProductRepo.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Repositories\\IProductRepo.cs",
+              "RelativeToolTip": "AppAPI\\Repositories\\IProductRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:12.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Program.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Program.cs",
+              "RelativeToolTip": "AppAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:04.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppData\\Product.cs",
+              "RelativeDocumentMoniker": "AppData\\Product.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppData\\Product.cs",
+              "RelativeToolTip": "AppData\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:00:59.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AppAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\NguyenVanLuan_PH45454\\AppAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AppAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T04:01:19.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
